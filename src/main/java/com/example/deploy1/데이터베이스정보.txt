@@ -1,0 +1,28 @@
+
+CREATE TABLE acorntbl (
+    id VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(100) NOT NULL,
+    name VARCHAR(100) NOT NULL
+);
+
+
+select *  from acorntbl ;
+insert into acorntbl values('usung0518', '1234', '권지언');
+insert into acorntbl values('boseong00', '1234', '김보성');
+insert into acorntbl values('Jys123', '9876', ' 정연수');
+insert into acorntbl values('sumni', '1234', '이수민');
+insert into acorntbl values('dongwoo12', '1234', '이동우');
+insert into acorntbl values('gusrl123', 'dks123', '윤현기');
+insert into acorntbl values('sulivun_03', '1234', '박시우');
+insert into acorntbl values('yerin0373', '1234', '박예린');
+insert into acorntbl values('yzei', '1234', '황예지');
+insert into acorntbl values('jitae', '1214', '최지태');
+insert into acorntbl values('sookyung', '1004', '박수경');
+insert into acorntbl values('yunseok', '123', '오윤석');
+insert into acorntbl values('LHJ0319', '1234', ' 이정호');
+insert into acorntbl values('gudxor8251', '1234', '임형택');
+insert into acorntbl values('che', '1234', '최하은');
+insert into acorntbl values('umin', '1234', '김유민');
+insert into acorntbl values('gill', '0000', '김민환');
+commit;
+select * from acorntbl;
